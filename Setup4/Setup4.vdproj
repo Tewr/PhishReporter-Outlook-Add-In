@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Setup4"
+"ProjectName" = "8:Setup"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -16,8 +16,14 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_171C0A7B5CD1965BB953DE3E49B6752E"
-        "OwnerKey" = "8:_EA4616890F5A4A60BD3CFEA5BA334AA2"
+        "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -29,7 +35,7 @@
         "Entry"
         {
         "MsmKey" = "8:_27D80DA21687FDBBF230FF71853F7150"
-        "OwnerKey" = "8:_EA4616890F5A4A60BD3CFEA5BA334AA2"
+        "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -53,49 +59,55 @@
         "Entry"
         {
         "MsmKey" = "8:_424B7ADF5127971E48A0BD75606AD0E9"
-        "OwnerKey" = "8:_EA4616890F5A4A60BD3CFEA5BA334AA2"
+        "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_4CD4A9FA877E090C87C3F43B77139872"
-        "OwnerKey" = "8:_EA4616890F5A4A60BD3CFEA5BA334AA2"
+        "OwnerKey" = "8:_EB26A735AEC1FADD1C9E804284002AB1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4CD4A9FA877E090C87C3F43B77139872"
+        "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_8648234A646E65DB9FA10E7FC4959FAF"
-        "OwnerKey" = "8:_EA4616890F5A4A60BD3CFEA5BA334AA2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_972439DF73FD4E1AB8A3FCEC92228EEE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C5B16AC51E5F4C8B96DE3642C0DC011B"
-        "OwnerKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_D8D79498B7F0128E81DCCCF84CA4DFC1"
-        "OwnerKey" = "8:_EA4616890F5A4A60BD3CFEA5BA334AA2"
+        "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EA4616890F5A4A60BD3CFEA5BA334AA2"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_E6412EC21CE817D8F007FD9C61001B50"
+        "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EB26A735AEC1FADD1C9E804284002AB1"
+        "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EA4616890F5A4A60BD3CFEA5BA334AA2"
+        "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_EB26A735AEC1FADD1C9E804284002AB1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -134,6 +146,12 @@
         "OwnerKey" = "8:_424B7ADF5127971E48A0BD75606AD0E9"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_E6412EC21CE817D8F007FD9C61001B50"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -142,7 +160,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\PhishReporter-x64.msi"
+        "OutputFilename" = "8:Debug\\ForwardPhisingToAbuseAddin-x64.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -174,7 +192,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\PhishReporterAdd-In-x86.msi"
+        "OutputFilename" = "8:Release\\PhishReporterAdd-In-x64.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -379,46 +397,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_972439DF73FD4E1AB8A3FCEC92228EEE"
-            {
-            "SourcePath" = "8:..\\ForwardToAbuseAddin\\bin\\Release\\PhishReporter.vsto"
-            "TargetName" = "8:PhishReporter.vsto"
-            "Tag" = "8:"
-            "Folder" = "8:_479C70E5422344A6944966282BE13B26"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C5B16AC51E5F4C8B96DE3642C0DC011B"
-            {
-            "SourcePath" = "8:..\\ForwardToAbuseAddin\\bin\\Release\\PhishReporter.dll.manifest"
-            "TargetName" = "8:PhishReporter.dll.manifest"
-            "Tag" = "8:"
-            "Folder" = "8:_479C70E5422344A6944966282BE13B26"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D8D79498B7F0128E81DCCCF84CA4DFC1"
             {
             "AssemblyRegister" = "3:1"
@@ -447,6 +425,68 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E6412EC21CE817D8F007FD9C61001B50"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_E6412EC21CE817D8F007FD9C61001B50"
+                    {
+                    "Name" = "8:stdole.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:stdole.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_479C70E5422344A6944966282BE13B26"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EB26A735AEC1FADD1C9E804284002AB1"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_EB26A735AEC1FADD1C9E804284002AB1"
+                    {
+                    "Name" = "8:Microsoft.Office.Tools.v4.0.Framework.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.Office.Tools.v4.0.Framework.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_479C70E5422344A6944966282BE13B26"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -507,7 +547,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PhishReporter Outlook Add-In "
         "ProductCode" = "8:{A34CAD81-D0AE-46A4-B2ED-E49AE69C1CFB}"
-        "PackageCode" = "8:{F5F4B08A-7570-4EC3-83E1-8F109AE113D9}"
+        "PackageCode" = "8:{210177B2-5861-494D-904C-3B6AB257A6D4}"
         "UpgradeCode" = "8:{8A5CEC54-EC69-4A3B-A3EB-E5874BCEF3EF}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -515,12 +555,12 @@
         "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:2.0.0"
-        "Manufacturer" = "8:MSAdministrator"
+        "Manufacturer" = "8:CompanyName"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:PhishReporter Outlook Add-In "
         "Subject" = "8:"
-        "ARPCONTACT" = "8:MSAdministrator"
+        "ARPCONTACT" = "8:MSAdministrator, Tor Knutsson"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:PhishReporter Outlook Add-In "
         "ARPURLINFOABOUT" = "8:http://msadministrator.com"
@@ -1086,9 +1126,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_EA4616890F5A4A60BD3CFEA5BA334AA2"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1254BD6F12ED464F8A1A76CC4F07AF0C"
             {
-            "SourcePath" = "8:..\\ForwardToAbuseAddin\\obj\\Release\\PhishReporter.dll"
+            "SourcePath" = "8:..\\ForwardPhishingToAbuseAddin\\obj\\Release\\ForwardPhishingToAbuseAddin.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_479C70E5422344A6944966282BE13B26"
@@ -1108,7 +1148,7 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:Release|Any CPU"
             "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{CB225C4D-267C-4ED5-ADC7-E42A824A18C2}"
+            "OutputProjectGuid" = "8:{C9AAA2EE-E2E7-4ED5-9B71-A3E13DD0E3AC}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {

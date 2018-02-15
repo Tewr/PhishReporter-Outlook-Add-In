@@ -11,5 +11,6 @@ There are tons of companies (now) offering this type of Add-In, but PhishReporte
 * Visual Studio 2015 (Tested and working on Community and Professional)
 * Visual Studio Installer Projects Extension: https://visualstudiogallery.msdn.microsoft.com/9abe329c-9bba-44a1-be59-0fbf6151054d
 * Visual Studio Office Developer Tools
-* To customize the plugin, just edit the setting in the PhishRepoerterConfig.vb file in the ForwardToAbuseAddin project
+
+This branch of the project uses C# and most values can be configured using the windows registry.
 
