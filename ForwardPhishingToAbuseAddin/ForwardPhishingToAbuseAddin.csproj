@@ -190,6 +190,7 @@
     <Compile Include="HomeRibbon.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Logging\ErrorCodes.cs" />
     <Compile Include="MailMessageRibbon.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -207,6 +208,7 @@
     <Compile Include="Services\AssemblyProperties.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Tools\MailItemExtension.cs" />
     <EmbeddedResource Include="BaseReportingRibbon.resx">
       <DependentUpon>BaseReportingRibbon.cs</DependentUpon>
       <SubType>Designer</SubType>

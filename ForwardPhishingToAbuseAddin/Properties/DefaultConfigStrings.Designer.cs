@@ -61,7 +61,7 @@ namespace ForwardPhishingToAbuseAddin.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This is a user-submitted report of a phishing email delivered by $PluginName$. Please review the attached phishing email(s)..
+        ///   Looks up a localized string similar to This is a user-submitted report of a phishing email delivered by $PluginName$. Please review the attached phishing email(s).
         /// </summary>
         internal static string Mail_MailBody {
             get {
@@ -88,7 +88,9 @@ namespace ForwardPhishingToAbuseAddin.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The selected message will be forwarded to $SecurityTeamEmail$ and removed from your inbox. Would you like to continue?.
+        ///   Looks up a localized string similar to The selected message(s) will be forwarded to $SecurityTeamEmail$ and removed from your inbox.
+        ///    
+        ///Would you like to continue?.
         /// </summary>
         internal static string Messages_ReportingConfirmationMessage {
             get {
@@ -97,7 +99,7 @@ namespace ForwardPhishingToAbuseAddin.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Report Phishing To Your Security Team.
+        ///   Looks up a localized string similar to Report Phishing to your security team.
         /// </summary>
         internal static string Messages_ReportingConfirmationTitle {
             get {
@@ -133,7 +135,7 @@ namespace ForwardPhishingToAbuseAddin.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Report Phishing Emial.
+        ///   Looks up a localized string similar to Report Phishing Email.
         /// </summary>
         internal static string ReportingButtonScreenTip {
             get {
@@ -151,7 +153,7 @@ namespace ForwardPhishingToAbuseAddin.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to [PhishReporter] Phishing Email Report.
+        ///   Looks up a localized string similar to [$PluginName$] Phishing Email Report.
         /// </summary>
         internal static string ReportingEmailSubject {
             get {

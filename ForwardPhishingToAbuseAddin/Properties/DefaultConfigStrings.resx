@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ReportingEmailSubject" xml:space="preserve">
-    <value>[PhishReporter] Phishing Email Report</value>
+    <value>[$PluginName$] Phishing Email Report</value>
   </data>
   <data name="ReportingButtonLabel" xml:space="preserve">
     <value>Report Phishing</value>
   </data>
   <data name="ReportingButtonScreenTip" xml:space="preserve">
-    <value>Report Phishing Emial</value>
+    <value>Report Phishing Email</value>
   </data>
   <data name="ReportingButtonSuperTip" xml:space="preserve">
     <value>Use this button to report suspicious emails to the Information Security team.</value>
@@ -133,14 +133,16 @@
     <value>Report Phishing Email</value>
   </data>
   <data name="Messages_ReportingConfirmationMessage" xml:space="preserve">
-    <value>The selected message will be forwarded to $SecurityTeamEmail$ and removed from your inbox. Would you like to continue?</value>
+    <value>The selected message(s) will be forwarded to $SecurityTeamEmail$ and removed from your inbox.
+    
+Would you like to continue?</value>
     <comment>$SecurityTeamEmail$ will be replaced by the corresponding setting</comment>
   </data>
   <data name="Messages_ReportingConfirmationTitle" xml:space="preserve">
-    <value>Report Phishing To Your Security Team</value>
+    <value>Report Phishing to your security team</value>
   </data>
   <data name="Mail_MailBody" xml:space="preserve">
-    <value>This is a user-submitted report of a phishing email delivered by $PluginName$. Please review the attached phishing email(s).</value>
+    <value>This is a user-submitted report of a phishing email delivered by $PluginName$. Please review the attached phishing email(s)</value>
     <comment>$PluginName$ is replaced by product name</comment>
   </data>
   <data name="Mail_MailTo" xml:space="preserve">

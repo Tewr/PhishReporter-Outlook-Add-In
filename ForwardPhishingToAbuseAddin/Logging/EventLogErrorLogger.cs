@@ -10,6 +10,10 @@ namespace ForwardPhishingToAbuseAddin.Logging
 
 		public void LogError(Func<string> constructErrorMessage, Exception exception)
 		{
+			LogError(constructErrorMessage, exception, 101);
+		}
+		public void LogError(Func<string> constructErrorMessage, Exception exception, ushort errorCode)
+		{
 			string message;
 			try
 			{
@@ -25,7 +29,7 @@ namespace ForwardPhishingToAbuseAddin.Logging
 				var consistentCode = message.GetHashCode();
 				message = $"{AppInfo.ApplicationProduct} {AppInfo.ApplicationVersion}: {Environment.NewLine} {exception.GetBaseException().GetType()} {message}{Environment.NewLine}{exception}";
 				eventLog.Source = "Application";
-				eventLog.WriteEntry(message, EventLogEntryType.Error, consistentCode, 1);
+				eventLog.WriteEntry(message, EventLogEntryType.Error, errorCode, 1);
 			}
 		}
 	}

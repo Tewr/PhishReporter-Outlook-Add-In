@@ -7,6 +7,8 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup4\Setup4.vdpr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForwardPhishingToAbuseAddin", "ForwardPhishingToAbuseAddin\ForwardPhishingToAbuseAddin.csproj", "{C9AAA2EE-E2E7-4ED5-9B71-A3E13DD0E3AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeploymentTools", "DeploymentTools\DeploymentTools.csproj", "{271B405C-3183-4DBE-83F3-32AA6FED8457}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Any CPU = CD_ROM|Any CPU
@@ -32,6 +34,16 @@ Global
 		{C9AAA2EE-E2E7-4ED5-9B71-A3E13DD0E3AC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C9AAA2EE-E2E7-4ED5-9B71-A3E13DD0E3AC}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{C9AAA2EE-E2E7-4ED5-9B71-A3E13DD0E3AC}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{271B405C-3183-4DBE-83F3-32AA6FED8457}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{271B405C-3183-4DBE-83F3-32AA6FED8457}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{271B405C-3183-4DBE-83F3-32AA6FED8457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271B405C-3183-4DBE-83F3-32AA6FED8457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271B405C-3183-4DBE-83F3-32AA6FED8457}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{271B405C-3183-4DBE-83F3-32AA6FED8457}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{271B405C-3183-4DBE-83F3-32AA6FED8457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271B405C-3183-4DBE-83F3-32AA6FED8457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271B405C-3183-4DBE-83F3-32AA6FED8457}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{271B405C-3183-4DBE-83F3-32AA6FED8457}.SingleImage|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

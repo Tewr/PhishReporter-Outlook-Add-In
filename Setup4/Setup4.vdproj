@@ -29,12 +29,6 @@
         "Entry"
         {
         "MsmKey" = "8:_171C0A7B5CD1965BB953DE3E49B6752E"
-        "OwnerKey" = "8:_E26643C3EB6E446D920517256EFF833F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_171C0A7B5CD1965BB953DE3E49B6752E"
         "OwnerKey" = "8:_D8D79498B7F0128E81DCCCF84CA4DFC1"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -47,12 +41,6 @@
         "Entry"
         {
         "MsmKey" = "8:_27D80DA21687FDBBF230FF71853F7150"
-        "OwnerKey" = "8:_E26643C3EB6E446D920517256EFF833F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_27D80DA21687FDBBF230FF71853F7150"
         "OwnerKey" = "8:_8648234A646E65DB9FA10E7FC4959FAF"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -60,12 +48,6 @@
         {
         "MsmKey" = "8:_424B7ADF5127971E48A0BD75606AD0E9"
         "OwnerKey" = "8:_171C0A7B5CD1965BB953DE3E49B6752E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_424B7ADF5127971E48A0BD75606AD0E9"
-        "OwnerKey" = "8:_E26643C3EB6E446D920517256EFF833F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -89,12 +71,6 @@
         "Entry"
         {
         "MsmKey" = "8:_4CD4A9FA877E090C87C3F43B77139872"
-        "OwnerKey" = "8:_E26643C3EB6E446D920517256EFF833F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4CD4A9FA877E090C87C3F43B77139872"
         "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -106,31 +82,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8648234A646E65DB9FA10E7FC4959FAF"
-        "OwnerKey" = "8:_E26643C3EB6E446D920517256EFF833F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_D8D79498B7F0128E81DCCCF84CA4DFC1"
         "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D8D79498B7F0128E81DCCCF84CA4DFC1"
-        "OwnerKey" = "8:_E26643C3EB6E446D920517256EFF833F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_E16DFAE1270A4C389AFB14046C9F1775"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E26643C3EB6E446D920517256EFF833F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -148,14 +106,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
+        "MsmKey" = "8:_F15091EEF08C4BEC8D2EDE09DA44CDBF"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E26643C3EB6E446D920517256EFF833F"
+        "OwnerKey" = "8:_1254BD6F12ED464F8A1A76CC4F07AF0C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -508,37 +466,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E26643C3EB6E446D920517256EFF833F"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ForwardPhishingToAbuseAddin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4ac6e845f66a8fcf, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_E26643C3EB6E446D920517256EFF833F"
-                    {
-                    "Name" = "8:ForwardPhishingToAbuseAddin.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\ForwardPhishingToAbuseAddin\\bin\\Release\\ForwardPhishingToAbuseAddin.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_479C70E5422344A6944966282BE13B26"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E6412EC21CE817D8F007FD9C61001B50"
             {
             "AssemblyRegister" = "3:1"
@@ -601,6 +528,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F15091EEF08C4BEC8D2EDE09DA44CDBF"
+            {
+            "SourcePath" = "8:..\\ForwardPhishingToAbuseAddin\\bin\\Release\\ForwardPhishingToAbuseAddin.vsto"
+            "TargetName" = "8:ForwardPhishingToAbuseAddin.vsto"
+            "Tag" = "8:"
+            "Folder" = "8:_479C70E5422344A6944966282BE13B26"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -658,7 +605,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PhishReporter Outlook Add-In "
         "ProductCode" = "8:{A34CAD81-D0AE-46A4-B2ED-E49AE69C1CFB}"
-        "PackageCode" = "8:{643887D9-5D04-40BA-8A71-6770CDEC2323}"
+        "PackageCode" = "8:{C57ADFDA-F699-4F24-A407-6526C53A5298}"
         "UpgradeCode" = "8:{8A5CEC54-EC69-4A3B-A3EB-E5874BCEF3EF}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

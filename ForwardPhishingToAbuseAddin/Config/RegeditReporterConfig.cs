@@ -1,26 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using ForwardPhishingToAbuseAddin.Logging;
 using ForwardPhishingToAbuseAddin.Services;
 using Microsoft.Win32;
 
 namespace ForwardPhishingToAbuseAddin.Config
 {
-	[SuppressMessage("ReSharper", "UnassignedGetOnlyAutoProperty", Justification = "All interface properties are instanciated with reflection")]
-	[SuppressMessage("ReSharper", "UnusedAutoPropertyAccessor.Local", Justification = "All interface properties are instanciated with reflection")]
+	[SuppressMessage("ReSharper", "UnassignedGetOnlyAutoProperty", Justification =
+		"All interface properties are instanciated with reflection")]
+	[SuppressMessage("ReSharper", "UnusedAutoPropertyAccessor.Local", Justification =
+		"All interface properties are instanciated with reflection")]
 	public class RegeditReporterConfig : IPhisingReporterConfig
 	{
 		private static readonly IApplicationInfo AppInfo = ServiceProvider.AppInfo;
 		private static readonly IErrorLogger Log = ServiceProvider.Log;
 
-		private static readonly string RegeditApplicationPathInLocalMachine = $@"SOFTWARE\{GetCompany()}\{GetProductName()}\";
+		public static readonly string RegistryKey = $@"{Registry.LocalMachine.Name}\SOFTWARE\{GetCompany()}\{GetProductName()}\";
 
 		public RegeditReporterConfig(IPhisingReporterConfig fallback)
 		{
-			foreach (var interfaceProperty in typeof(IPhisingReporterConfig).GetProperties())
-			{
-				GetType().GetProperty(interfaceProperty.Name)?.SetValue(this, 
-					GetValue(interfaceProperty.Name, interfaceProperty.GetValue(fallback, null)), null);
-			}
+			foreach (var interfaceProperty in GetFallbackValuesAsDictionary(fallback))
+				GetType().GetProperty(interfaceProperty.Key)?.SetValue(this,
+					GetValue(interfaceProperty.Key, interfaceProperty.Value), null);
 		}
 
 		public string ReportingButtonLabel { get; private set; }
@@ -37,20 +40,22 @@ namespace ForwardPhishingToAbuseAddin.Config
 		public string NoEmailSelectedTitle { get; private set; }
 		public string ProcessAddendumIfRunbookUrlConfigured { get; private set; }
 
+		public static IDictionary<string, object> GetFallbackValuesAsDictionary(IPhisingReporterConfig dataSource)
+		{
+			return typeof(IPhisingReporterConfig).GetProperties().ToDictionary(x => x.Name, x => x.GetValue(dataSource, null));
+		}
+
 		private object GetValue(string propertyName, object fallBack)
 		{
-			
-			var registryKey = $@"{Registry.LocalMachine.Name}\{RegeditApplicationPathInLocalMachine}";
-
 			string value = null;
 			try
 			{
-				value = (string)Registry.GetValue(registryKey, propertyName, fallBack);
+				value = (string) Registry.GetValue(RegistryKey, propertyName, fallBack);
 			}
 			catch (Exception e)
 			{
 				Log.LogError(() => $"{nameof(RegeditReporterConfig)}.{nameof(GetValue)}({propertyName}, {fallBack}): " +
-											$"Call to Registry.GetValue({registryKey}, {propertyName}, {fallBack}) failed", e);
+									 $"Call to Registry.GetValue({RegistryKey}, {propertyName}, {fallBack}) failed", e, ErrorCodes.FailedToReadRegistry);
 			}
 
 			return string.IsNullOrWhiteSpace(value) ? fallBack : value;
