@@ -59,7 +59,7 @@ namespace ForwardPhishingToAbuseAddin
 
 		protected virtual List<MailItem> GetSelectedMailItems()
 		{
-			return Globals.ThisAddIn.Application.ActiveExplorer().Selection.Cast<MailItem>().ToList();
+			return Globals.ThisAddIn.Application.ActiveExplorer().Selection.OfType<MailItem>().ToList();
 		}
 
 		private void ReportCurrentSelection()
