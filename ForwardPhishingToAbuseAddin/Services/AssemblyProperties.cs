@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Concurrent;
 using System.Linq;
 using System.Reflection;
@@ -13,16 +13,18 @@ namespace ForwardPhishingToAbuseAddin.Services
 			GetAttributeValue<AssemblyProductAttribute>(nameof(ApplicationProduct), x => x.Product);
 
 		public string ApplicationVersion =>
-			GetAttributeValue<AssemblyVersionAttribute>(nameof(ApplicationVersion), x => x.Version);
+			Values.GetOrAdd(nameof(ApplicationVersion), key => CurrentAssembly.GetName().Version.ToString());
 
 		public string ApplicationCompany =>
 			GetAttributeValue<AssemblyCompanyAttribute>(nameof(ApplicationCompany), x => x.Company);
 
 		public static T GetAttribute<T>()
 		{
-			return (T) Assembly.GetCallingAssembly().GetCustomAttributes(typeof(T), false).FirstOrDefault();
+			return (T) CurrentAssembly.GetCustomAttributes(typeof(T), false).FirstOrDefault();
 		}
 
+		private static Assembly CurrentAssembly => typeof(AssemblyProperties).Assembly;
+		
 		private static string GetAttributeValue<T>(string cachedName, Func<T, string> member)
 		{
 			return Values.GetOrAdd(cachedName, key =>
