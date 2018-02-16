@@ -15,7 +15,7 @@ namespace ForwardPhishingToAbuseAddin
 		protected override List<MailItem> GetSelectedMailItems()
 		{
 			var inspector = Globals.ThisAddIn.Application.ActiveInspector();
-			return new[] { inspector.CurrentItem as MailItem}.ToList();
+			return new[] { inspector.CurrentItem }.OfType<MailItem>().ToList();
 		}
 
 		protected override ushort FailClickErrorCode()
