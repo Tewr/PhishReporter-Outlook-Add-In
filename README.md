@@ -19,7 +19,7 @@ Create or get a new signing certificate from the c# Project properties. The pfx 
 Edit AssemblyInfo.cs with your company name and perhaps a product name to enable registry configuration. The optional registry setting location will be HKLM\Software\company\productname\ . 
 To modify a property, add a new string value with the same name as IPhisingReporterConfig. Some of the strings have template variables on the form $name$, this can be kept(or not) in any replacement string.
 
-For the installer, you should also edit Setup.vbproj company name (affects install location).
+For the installer, you should also edit Setup.vdproj company name (affects install location).
 
 ## Additions from source repo
 * Rewritten in in C#
